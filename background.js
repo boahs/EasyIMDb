@@ -6,14 +6,18 @@ chrome.contextMenus.create({
         const response = await fetch(`https://www.omdbapi.com/?t=${name}&apikey=df25630e`)
         const {
             Title,
+            Rated,
             Year,
             Runtime,
             Actors,
             Genre,
-            imdbRating
+            imdbRating,
+            imdbVotes
         } = await response.json()
         const newLine = "\r\n"
         let message = `Title: ${Title}`
+        message += newLine
+        message += `Rating: ${Rated}`
         message += newLine
         message += `Year : ${Year}`
 		message += newLine
@@ -23,7 +27,9 @@ chrome.contextMenus.create({
 		message += newLine
 		message += `Actors : ${Actors}`
 		message += newLine
-		message += `IMDb Rating : ${imdbRating}`
+        message += `IMDb Rating : ${imdbRating}`
+        message += newLine
+        message += `imdbVotes : ${imdbVotes}`
 		alert(message)
     }
 });
