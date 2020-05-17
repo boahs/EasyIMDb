@@ -12,7 +12,9 @@ chrome.contextMenus.create({
             Actors,
             Genre,
             imdbRating,
-            imdbVotes
+            Plot,
+            imdbVotes,
+            imdbID
         } = await response.json()
         const newLine = "\r\n"
         let message = `Title: ${Title}`
@@ -30,6 +32,9 @@ chrome.contextMenus.create({
         message += `IMDb Rating : ${imdbRating}`
         message += newLine
         message += `imdbVotes : ${imdbVotes}`
+        message += newLine
+        message += `Plot : ${Plot}`
+        message += newLine
 		alert(message)
     }
 });
