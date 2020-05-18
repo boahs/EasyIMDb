@@ -13,6 +13,8 @@ style="float: left; margin-right: 10px;" />
 
 ## Getting started
 
+[Add VIA chrome store](https://chrome.google.com/webstore/detail/easy-imdb/edkkkggfhmoogadkmjndmlfhlmdainam/related?hl=en)
+
 - Fork or clone repository 
 - Go to `chrome://extensions/` inside your chrome browser and toggle `Developer mode`. 
 - Click `Load unpacked` and browse to the directory containing the Extension. 
