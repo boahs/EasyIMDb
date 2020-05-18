@@ -11,9 +11,15 @@ style="float: left; margin-right: 10px;" />
 - Currently only working for chrome
 - Displays all important information about a title
 
-## Getting started
+<h1 align="center">
+Getting started
+</h1>
 
 ### [Add VIA chrome store](https://chrome.google.com/webstore/detail/easy-imdb/edkkkggfhmoogadkmjndmlfhlmdainam/related?hl=en)
+
+<h1 align="center">
+Manual install
+</h1>
 
 - Fork or clone repository 
 - Go to `chrome://extensions/` inside your chrome browser and toggle `Developer mode`. 
