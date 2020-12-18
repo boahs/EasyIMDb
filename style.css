@@ -1,0 +1,19 @@
+.app {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+}
+
+.p1 {
+    font-size: 2rem;
+}
+
+.p2 {
+    font-size: 1rem;
+}
+
+.main {
+    font-weight: bold;
+    font-size: 3rem;
+}
